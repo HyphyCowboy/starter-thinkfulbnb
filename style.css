@@ -6,6 +6,7 @@ body {
 
 #menu{
   display:flex;
+  justify-content:center;
 
 }
 
@@ -93,31 +94,34 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 10px;
-  
-  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
+
 
 form label {
   font-weight: bold;
-  justify-content: flex-start;
-  text-align: left;
-  
 }
 
 form select,
 form input {
-  justify-content: right;
   margin-bottom: 20px;
-  width: 180px;
+  width: 225px;
 }
-
+form div {
+  display: flex;
+  justify-content: space-between;
+}
 form button {
+  align-items: center;
   background-color: #ff385c;
   border: none;
   color: #fff;
   font-size: 24px;
   padding: 15px;
   width: 100%;
+
 }
 
 /* -------  Footer ------- */
